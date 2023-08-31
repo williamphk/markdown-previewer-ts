@@ -44,5 +44,5 @@ Open your browser and navigate to http://localhost:3000.
 This project is licensed under the MIT License
 
 ## Acknowledgments
-- react-markdown for making Markdown-to-HTML conversion seamless.
-- styled-components for empowering the styling of the application.
+- [react-markdown](https://github.com/remarkjs/react-markdown) for making Markdown-to-HTML conversion seamless.
+- [styled-components](https://styled-components.com/) for empowering the styling of the application.
