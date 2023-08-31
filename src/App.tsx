@@ -9,20 +9,21 @@ import "./App.css";
 
 function App() {
   const handleToggleGuide = () => {
-    console.log("Guide toggled!");
+    setShowGuide(!showGuide);
   };
 
-  const [markdownText, setMarkdownText] = useState<string>("");
+  const [markdown, setMarkdown] = useState<string>(`# Hello World`);
+  const [showGuide, setShowGuide] = useState<boolean>(false);
 
   return (
     <>
       <Header onToggleGuide={handleToggleGuide} />
-      <MarkdownGuide />
+      {showGuide && <MarkdownGuide />}
       <MarkdownInput
-        value={markdownText}
-        onChange={(e) => setMarkdownText(e.target.value)}
+        value={markdown}
+        onChange={(e) => setMarkdown(e.target.value)}
       />
-      <MarkdownOutput markdown={markdownText} />
+      <MarkdownOutput markdown={markdown} />
     </>
   );
 }
