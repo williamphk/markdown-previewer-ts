@@ -15,7 +15,7 @@ npm or yarn (your choice)
 ## Installation
 Clone the repository:
 ```
-git clone https://github.com/your-username/markdown-previewer.git
+git clone https://github.com/williamphk/markdown-previewer-ts.git
 ```
 
 Navigate to the project directory:
