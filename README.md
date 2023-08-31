@@ -3,9 +3,9 @@
 An intuitive and user-friendly application that allows users to write and preview Markdown content in real-time.
 
 ## Features
-Real-time Preview: See live HTML output as you type your Markdown content.
-Stylish UI: Elegant and distraction-free interface that enhances the writing experience.
-Markdown Guide: Not familiar with Markdown? The app comes with a quick guide to get you started.
+- Real-time Preview: See live HTML output as you type your Markdown content.
+- Stylish UI: Elegant and distraction-free interface that enhances the writing experience.
+- Markdown Guide: Not familiar with Markdown? The app comes with a quick guide to get you started.
 
 ## Getting Started
 ### Prerequisites
