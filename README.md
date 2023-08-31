@@ -20,7 +20,7 @@ git clone https://github.com/williamphk/markdown-previewer-ts.git
 
 Navigate to the project directory:
 ```
-cd markdown-previewer
+cd markdown-previewer-ts
 ```
 
 Install the dependencies:
