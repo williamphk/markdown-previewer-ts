@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import MarkdownGuide from "./components/MarkdownGuide";
 import MarkdownInput from "./components/MarkdownInput";
+import MarkdownOutput from "./components/MarkdownOutput";
 
 import "./App.css";
 
@@ -21,6 +22,7 @@ function App() {
         value={markdownText}
         onChange={(e) => setMarkdownText(e.target.value)}
       />
+      <MarkdownOutput markdown={markdownText} />
     </>
   );
 }

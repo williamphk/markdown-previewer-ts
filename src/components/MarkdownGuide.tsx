@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const GuideContainer = styled.div`
   padding: 1rem 2rem;
   margin: 1rem 0;
@@ -6,6 +7,7 @@ const GuideContainer = styled.div`
   border-radius: 5px;
   background-color: #f7f7f7;
 `;
+
 const MarkdownGuide: React.FC = () => {
   return (
     <GuideContainer>
@@ -48,4 +50,5 @@ const MarkdownGuide: React.FC = () => {
     </GuideContainer>
   );
 };
+
 export default MarkdownGuide;
